@@ -1,0 +1,88 @@
+body{
+  background-color: hsl(234, 31%, 26%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+  background-color: transparent;
+  margin: 30% 0 30% 0;
+  border: 10px solid white;
+}
+
+button img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: invert(1);
+  
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(125%);
+  box-shadow: 10px 10px 50px #ff00ee;
+}
+
+button:active{
+  transform: scale(100%);
+  transition: 0.1s;
+}
+
+.op-selector{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.risultato-h1{
+  color: #ffffff;
+
+}
+
+.risultato{
+  color: white;
+  font-size: 300%;
+
+}
+
+.rigioca{
+  border: none;
+  font-size: 400%;
+  color: white;
+}
+
+.rigioca:hover{
+  box-shadow: none;
+  text-shadow: 0.5px 0.5px 10px #fff;
+}
+
+.rigioca:active{
+  text-shadow: 0.5px 0.5px 10px #fff;
+  transform: scale(80%);
+}
